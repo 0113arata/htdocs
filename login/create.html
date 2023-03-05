@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <title>doPostのテスト</title>
-</head>
-<body>
-  <h1>doPostのテスト（Form送信）</h1>
-  <form method="post" action="https://script.google.com/macros/s/AKfycbzpIaFBBGeCSZzTi79jpDPU8AwX1B_gG3HySTJn82TTcUH5gOnA3Xky_HfpAJTsysMiGg/exec">
-    <p>
-        <label>名前 <input type="text" name="name"></label>
-    </p>
-
-    <p>
-        <label>年齢 <input type="text" name="old"></label>
-    </p>
-
-    <p>
-        <label>メールアドレス <input type="text" name="mail"></label>
-    </p>
-
-    <p>
-        <label>パスワード <input type="text" name="pass"></label>
-    </p>
-
-    <p>
-      <input type="submit" value="送信">
-    </p>
-  </form>
-</body>
-</html>
+<form action="https://script.google.com/macros/s/AKfycbzpIaFBBGeCSZzTi79jpDPU8AwX1B_gG3HySTJn82TTcUH5gOnA3Xky_HfpAJTsysMiGg/exec" method="post">
+  <input type="text" name="name">
+  <input type="text" name="old">
+  <input type="email" name="mail">
+  <input type="pass" name="pass">
+  <input type="submit" value="送信">
+</form>
